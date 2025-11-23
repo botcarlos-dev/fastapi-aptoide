@@ -103,7 +103,7 @@ GET /aptoide?package_name=com.facebook.katana
 2. Run:
 
 ```bash
-PYTHONPATH=. pytest -v
+pytest -v
 ```
 
 All tests are located in `tests/test_api.py`.
