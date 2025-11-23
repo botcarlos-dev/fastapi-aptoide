@@ -66,32 +66,32 @@ uvicorn app.main:app --reload
 
 **Query parameter:**
 
-- `package_name` → The app’s package ID (e.g., `com.facebook.katana`)
+- `package_name` → The app’s package ID (e.g., `com.whatsapp`)
 
 **Example Request:**
 
 ```
-GET /aptoide?package_name=com.facebook.katana
+GET /aptoide?package_name=com.whatsapp
 ```
 
 **Example Response:**
 
 ```json
 {
-  "name": "Facebook",
-  "size": "152 MB",
-  "downloads": "2B",
-  "version": "532.0.0.55.71",
-  "release_date": "2025-09-30 17:06:59",
-  "min_screen": "SMALL",
-  "supported_cpu": "arm64-v8a",
-  "package_id": "com.facebook.katana",
-  "sha1_signature": "8A:3C:4B:26:2D:72:1A:CD:49:A4:BF:97:D5:21:31:99:C8:6F:A2:B9",
-  "developer_cn": "Facebook Corporation",
-  "organization": "Facebook Mobile",
-  "local": "Palo Alto",
+ "name": "WhatsApp Messenger",
+  "size": "130 MB",
+  "downloads": null,
+  "version": "2.25.35.73",
+  "release_date": null,
+  "min_screen": null,
+  "supported_cpu": null,
+  "package_id": "com.whatsapp",
+  "sha1_signature": "38:A0:F7:D5:05:FE:18:FE:C6:4F:BF:34:3E:CA:AA:F3:10:DB:D7:99",
+  "developer_cn": "Brian Acton",
+  "organization": "WhatsApp Inc.",
+  "local": "Santa Clara",
   "country": "US",
-  "state_city": "CA"
+  "state_city": "California"
 }
 ```
 
